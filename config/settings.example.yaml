@@ -1,0 +1,18 @@
+# E-commerce Scraper Configuration (Example)
+
+target_website: bestbuy
+run:
+  max_products: 30
+  headless: true
+  
+scraper:
+  delay:
+    min_seconds: 3
+    max_seconds: 5
+  timeouts:
+    navigation: 30000
+    element: 10000
+
+paths:
+  data_dir: "data"
+  logs_dir: "logs"

@@ -1,0 +1,23 @@
+# Environment
+.env
+*.env
+
+# Data (large files, potentially sensitive)
+data/raw/
+data/processed/
+logs/
+*.log
+
+# Browser artifacts
+*.har
+*.zip
+browser_data/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+.env/
+env/
