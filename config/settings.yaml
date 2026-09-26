@@ -1,9 +1,9 @@
 # E-commerce Scraper Configuration
 
-target_website: bestbuy
+target_website: ebay
 run:
-  max_products: 30
-  headless: true
+  max_products: 25
+  headless: false
   
 scraper:
   delay:

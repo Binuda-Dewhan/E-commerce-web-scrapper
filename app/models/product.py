@@ -2,6 +2,8 @@ from pydantic import BaseModel, HttpUrl
 from typing import Optional, Dict
 
 class Product(BaseModel):
+    model_config = {'protected_namespaces': ()}
+    
     product_id: str
     product_name: str
     brand: str
